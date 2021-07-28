@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>对称三进制逻辑</title>
+</head>
+<body>
+<table>
+  <tr>
+    <td rowspan=2>非 ¬ tNOT</td>
+    <td>I</td><td>-</td><td>0</td><td>+</td>
+    <td rowspan=2 colspan=15>/</td>
+  </tr>
+  <tr>
+    <td>0</td><td>+</td><td>0</td><td>-</td>
+  </tr>
+  <tr>
+    <td rowspan=4>与 ∧ tAND</td>
+    <td> </td><td>-</td><td>0</td><td>+</td>
+    <td rowspan=4>与非 ↑ tNAND</td>
+    <td> </td><td>-</td><td>0</td><td>+</td>
+    <td rowspan=4>异或 ⊕ tXOR</td>
+    <td> </td><td>-</td><td>0</td><td>+</td>
+    <td rowspan=4>蕴含 → tIMPLIES</td>
+    <td> </td><td>-</td><td>0</td><td>+</td>
+  </tr>
+  <tr>
+    <td>-</td><td>+</td><td>0</td><td>-</td>
+    <td>-</td><td>+</td><td>0</td><td>-</td>
+    <td>-</td><td>-</td><td>0</td><td>+</td>
+    <td>-</td><td> </td><td> </td><td> </td>
+  </tr>
+  <tr>
+    <td>0</td><td>0</td><td>0</td><td>0</td>
+    <td>0</td><td>0</td><td>0</td><td>0</td>
+    <td>0</td><td>0</td><td>0</td><td>0</td>
+    <td>0</td><td> </td><td> </td><td> </td>
+  </tr>
+  <tr>
+    <td>+</td><td>-</td><td>0</td><td>+</td>
+    <td>+</td><td>+</td><td>0</td><td>-</td>
+    <td>+</td><td>+</td><td>0</td><td>-</td>
+    <td>+</td><td> </td><td> </td><td> </td>
+  </tr>
+  <tr>
+    <td rowspan=4>或 ∨ tOR</td>
+    <td> </td><td>-</td><td>0</td><td>+</td>
+    <td rowspan=4>或非 ↓ tNOR</td>
+    <td> </td><td>-</td><td>0</td><td>+</td>
+    <td rowspan=4>同或 ⊙ tXNOR</td>
+    <td> </td><td>-</td><td>0</td><td>+</td>
+    <td rowspan=4 colspan=5>/</td>
+  </tr>
+  <tr>
+    <td>-</td><td>-</td><td>-</td><td>0</td>
+    <td>-</td><td>+</td><td>+</td><td>0</td>
+    <td>-</td><td>+</td><td>0</td><td>-</td>
+  </tr>
+  <tr>
+    <td>0</td><td>-</td><td>0</td><td>+</td>
+    <td>0</td><td>+</td><td>0</td><td>-</td>
+    <td>0</td><td>0</td><td>0</td><td>0</td>
+  </tr>
+  <tr>
+    <td>+</td><td>0</td><td>+</td><td>+</td>
+    <td>+</td><td>0</td><td>-</td><td>-</td>
+    <td>+</td><td>-</td><td>0</td><td>+</td>
+  </tr>
+</table>
+<style>
+table {
+  font-family: Consolas, monospace;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+td {
+  text-align: center;
+  padding: 3px;
+}
+</style>
+</body>
+</html>
