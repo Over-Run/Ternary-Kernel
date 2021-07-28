@@ -1,0 +1,1 @@
+add_library(ternary_kernel STATIC symmetric_ternary_logic.c)
